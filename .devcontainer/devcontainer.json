@@ -1,0 +1,6 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:1": {}
+  }
+}

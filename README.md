@@ -1,10 +1,18 @@
 [ldapserver]: https://github.com/wshihadeh/ldap_server
 [openldap]: https://github.com/osixia/docker-openldap
+[dockerldap]: https://github.com/rroemhild/docker-test-openldap
 [futuramawikia]: http://futurama.wikia.com
 
 # LDAP Test Server
 
 A containerised OpenLDAP server pre-populated with data for testing purposes.
+
+It adds `objectSid` and `objectGUID` attributes for an `adPerson` object class in order to test these.
+
+This project is based on the following projects:
+* [ldap_server][ldapserver]
+* [docker-test-ldap][dockerldap]
+* [docker-openldap][openldap]
 
 The server is initialized with the example domain `planetexpress.com` with data from the [Futurama Wiki][futuramawikia].
 
@@ -17,22 +25,22 @@ The server is initialized with the example domain `planetexpress.com` with data 
 
 ```
 # List all Users
-ldapsearch -H ldap://localhost:10389 -x -b "ou=people,dc=planetexpress,dc=com" -D "cn=admin,dc=planetexpress,dc=com" -w GoodNewsEveryone "(objectClass=inetOrgPerson)"
+ldapsearch -H ldap://localhost:389 -x -b "ou=people,dc=planetexpress,dc=com" -D "cn=admin,dc=planetexpress,dc=com" -w GoodNewsEveryone "(objectClass=inetOrgPerson)"
 
 # Request StartTLS
-ldapsearch -H ldap://localhost:10389 -Z -x -b "ou=people,dc=planetexpress,dc=com" -D "cn=admin,dc=planetexpress,dc=com" -w GoodNewsEveryone "(objectClass=inetOrgPerson)"
+ldapsearch -H ldap://localhost:389 -Z -x -b "ou=people,dc=planetexpress,dc=com" -D "cn=admin,dc=planetexpress,dc=com" -w GoodNewsEveryone "(objectClass=inetOrgPerson)"
 
 # Enforce StartTLS
-ldapsearch -H ldap://localhost:10389 -ZZ -x -b "ou=people,dc=planetexpress,dc=com" -D "cn=admin,dc=planetexpress,dc=com" -w GoodNewsEveryone "(objectClass=inetOrgPerson)"
+ldapsearch -H ldap://localhost:389 -ZZ -x -b "ou=people,dc=planetexpress,dc=com" -D "cn=admin,dc=planetexpress,dc=com" -w GoodNewsEveryone "(objectClass=inetOrgPerson)"
 
 # Enforce StartTLS with self-signed cert
-LDAPTLS_REQCERT=never ldapsearch -H ldap://localhost:10389 -ZZ -x -b "ou=people,dc=planetexpress,dc=com" -D "cn=admin,dc=planetexpress,dc=com" -w GoodNewsEveryone "(objectClass=inetOrgPerson)"
+LDAPTLS_REQCERT=never ldapsearch -H ldap://localhost:389 -ZZ -x -b "ou=people,dc=planetexpress,dc=com" -D "cn=admin,dc=planetexpress,dc=com" -w GoodNewsEveryone "(objectClass=inetOrgPerson)"
 ```
 
 ## Exposed ports
 
 * 389 (ldap)
-* 636 (ldaps)
+* 8080 (ldap admin in docker compose)
 
 ## LDAP structure
 

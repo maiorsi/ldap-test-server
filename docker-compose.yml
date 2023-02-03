@@ -1,0 +1,24 @@
+version: '3.7'
+
+services:
+
+  ldap:
+    image: ghcr.io/maiorsi/ldap-test-server:latest
+    environment: []
+    ports:
+      - 389:389
+    volumes:
+      - data:/var/lib/ldap
+      - config:/etc/ldap/slapd.d
+
+  admin:
+    image: osixia/phpldapadmin:0.7.2
+    ports:
+      - 8090:80
+    environment:
+      PHPLDAPADMIN_LDAP_HOSTS: ldap
+      PHPLDAPADMIN_HTTPS: 'false'
+
+volumes:
+  data:
+  config:

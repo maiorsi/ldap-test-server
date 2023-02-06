@@ -7,6 +7,7 @@ services:
     environment: []
     ports:
       - 389:389
+      - 636:636
     volumes:
       - data:/var/lib/ldap
       - config:/etc/ldap/slapd.d

@@ -18,7 +18,12 @@ The server is initialized with the example domain `planetexpress.com` with data 
 
 ## Usage
 
-```
+```sh
+# Start up via Docker compose
+make build up
+
+# Stop, clean purge and restart
+make down clean purge build up
 ```
 
 ## Testing
@@ -170,6 +175,8 @@ Amy has a multi-valued DN
 | description      | Human |
 | givenName        | Amy |
 | mail             | amy@planetexpress.com |
+| objectSid        | AQQAAAAAAAUVAAAAwdFKz9WmazDFb3Y8 |
+| objectGUID       | 9eLQGLjeDE6kgxMT1ghj+g== |
 | ou               | Intern |
 | uid              | amy |
 | userPassword     | amy |

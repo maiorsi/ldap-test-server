@@ -4,14 +4,14 @@ objectClass: inetOrgPerson
 objectClass: organizationalPerson
 objectClass: person
 objectClass: top
+objectSid:: AQQAAAAAAAUVAAAAwdFKz9WmazDGb3Y8
+objectGUID:: 9eLQGLjeDE6kgxMT1ghj+w==
 cn: cn=Bender Bending Rodriguez
 sn: Rodriguez
 description: Robot
 displayName: Bender
 employeeType: Ship's Robot
 givenName: Bender
-objectSid:: AQQAAAAAAAUVAAAAwdFKz9WmazDGb3Y8
-objectGUID:: 9eLQGLjeDE6kgxMT1ghj+w==
 jpegPhoto:: /9j/4AAQSkZJRgABAQEAYABgAAD/4QBgRXhpZgAASUkqAAgAAAACADEBAgAHAAAA
  JgAAAGmHBAABAAAALgAAAAAAAABHb29nbGUAAAMAAJAHAAQAAAAwMjIwAqAEAAEAAAC0AQAAA6A
  EAAEAAAA6AgAAAAAAAP/bAEMABQMEBAQDBQQEBAUFBQYHDAgHBwcHDwsLCQwRDxISEQ8RERMWHB

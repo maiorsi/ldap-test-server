@@ -18,3 +18,14 @@ objectclass ( 1.1.2.2.1
         objectGUID
     )
     )
+
+objectclass ( 1.1.2.2.2
+    NAME 'adGroup'
+    DESC 'AD Group'
+    SUP top AUXILIARY
+    MUST cn
+    MAY (
+        objectSid $
+        objectGUID
+    )
+    )

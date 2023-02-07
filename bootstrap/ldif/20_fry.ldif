@@ -4,14 +4,14 @@ objectClass: inetOrgPerson
 objectClass: organizationalPerson
 objectClass: person
 objectClass: top
+objectSid:: AQQAAAAAAAUVAAAAwdFKz9WmazDHb3Y8
+objectGUID:: 9eLQGLjeDE6kgxMT1ghj/A==
 cn: Philip J. Fry
 sn: Fry
 description: Human
 displayName: Fry
 employeeType: Delivery boy
-givenName: Philip
-objectSid:: AQQAAAAAAAUVAAAAwdFKz9WmazDHb3Y8
-objectGUID:: 9eLQGLjeDE6kgxMT1ghj/A==
+givenName: Philips
 jpegPhoto:: /9j/4AAQSkZJRgABAQEAYABgAAD/4QBgRXhpZgAASUkqAAgAAAACADEBAgAHAAAA
  JgAAAGmHBAABAAAALgAAAAAAAABHb29nbGUAAAMAAJAHAAQAAAAwMjIwAqAEAAEAAACtAQAAA6A
  EAAEAAABeAQAAAAAAAP/bAEMAAwICAwICAwMDAwQDAwQFCAUFBAQFCgcHBggMCgwMCwoLCw0OEh

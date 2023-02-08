@@ -1,9 +1,9 @@
 dn: cn=ship_crew,ou=people,dc=planetexpress,dc=com
 objectclass: Group
 objectclass: top
-#objectclass: adGroup
-#objectSid:: AQQAAAAAAAUVAAAAwdFKz9WmazDNb3Y8
-#objectGUID:: 9eLQGLjeDE6kgxMT1ghjEw==
+objectclass: adGroup
+objectSid:: AQQAAAAAAAUVAAAAwdFKz9WmazDNb3Y8
+ objectGUID:: 9eLQGLjeDE6kgxMT1ghjEw==
 groupType: 2147483650
 cn: ship_crew
 member: cn=Philip J. Fry,ou=people,dc=planetexpress,dc=com

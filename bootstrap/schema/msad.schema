@@ -1,12 +1,21 @@
+attributetype ( 1.2.840.113556.1.4.750
+        NAME 'groupType'
+        SYNTAX 1.3.6.1.4.1.1466.115.121.1.27)
+
 attributetype ( 1.2.840.113556.1.4.146
         NAME 'objectSid'
-        EQUALITY octetStringMatch
         SYNTAX 1.3.6.1.4.1.1466.115.121.1.40)
 
 attributetype ( 1.2.840.113556.1.4.2
         NAME 'objectGUID'
-        EQUALITY octetStringMatch
         SYNTAX 1.3.6.1.4.1.1466.115.121.1.40)
+
+objectclass ( 1.2.840.113556.1.5.8
+    NAME 'Group'
+    DESC 'a group of users'
+    SUP top STRUCTURAL
+    MUST ( groupType $ cn)
+    MAY ( member ) )
 
 objectclass ( 1.1.2.2.1
     NAME 'adPerson'

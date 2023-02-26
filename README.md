@@ -59,8 +59,9 @@ LDAPTLS_REQCERT=never ldapsearch -H ldap://localhost:389 -ZZ -x -b "ou=people,dc
 
 #### cn=Hubert J. Farnsworth,ou=people,dc=planetexpress,dc=com
 
-_S-1-5-21-3477787073-812361429-1014394826_
-_18d0e2f5-deb8-4e0c-a483-1313d60863ff_
+SID: _S-1-5-21-3477787073-812361429-1014394826_
+
+GUID: _18d0e2f5-deb8-4e0c-a483-1313d60863ff_
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |
@@ -85,8 +86,9 @@ _18d0e2f5-deb8-4e0c-a483-1313d60863ff_
 
 ### cn=Philip J. Fry,ou=people,dc=planetexpress,dc=com
 
-_S-1-5-21-3477787073-812361429-1014394823_
-_18d0e2f5-deb8-4e0c-a483-1313d60863fc_
+SID: _S-1-5-21-3477787073-812361429-1014394823_
+
+GUID: _18d0e2f5-deb8-4e0c-a483-1313d60863fc_
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |
@@ -108,8 +110,9 @@ _18d0e2f5-deb8-4e0c-a483-1313d60863fc_
 
 ### cn=John A. Zoidberg,ou=people,dc=planetexpress,dc=com
 
-_S-1-5-21-3477787073-812361429-1014394827_
-_18d0e2f5-deb8-4e0c-a483-1313d6086311_
+SID: _S-1-5-21-3477787073-812361429-1014394827_
+
+GUID: _18d0e2f5-deb8-4e0c-a483-1313d6086311_
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |
@@ -131,8 +134,9 @@ _18d0e2f5-deb8-4e0c-a483-1313d6086311_
 
 ### cn=Hermes Conrad,ou=people,dc=planetexpress,dc=com
 
-_S-1-5-21-3477787073-812361429-1014394824_
-_18d0e2f5-deb8-4e0c-a483-1313d60863fd_
+SID: _S-1-5-21-3477787073-812361429-1014394824_
+
+GUID: _18d0e2f5-deb8-4e0c-a483-1313d60863fd_
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |
@@ -152,8 +156,9 @@ _18d0e2f5-deb8-4e0c-a483-1313d60863fd_
 
 ### cn=Turanga Leela,ou=people,dc=planetexpress,dc=com
 
-_S-1-5-21-3477787073-812361429-1014394825_
-_18d0e2f5-deb8-4e0c-a483-1313d60863fe_
+SID: _S-1-5-21-3477787073-812361429-1014394825_
+
+GUID: _18d0e2f5-deb8-4e0c-a483-1313d60863fe_
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |
@@ -174,8 +179,9 @@ _18d0e2f5-deb8-4e0c-a483-1313d60863fe_
 
 ### cn=Bender Bending Rodríguez,ou=people,dc=planetexpress,dc=com
 
-_S-1-5-21-3477787073-812361429-1014394822_
-_18d0e2f5-deb8-4e0c-a483-1313d60863fb_
+SID: _S-1-5-21-3477787073-812361429-1014394822_
+
+GUID: _18d0e2f5-deb8-4e0c-a483-1313d60863fb_
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |
@@ -195,8 +201,9 @@ _18d0e2f5-deb8-4e0c-a483-1313d60863fb_
 
 ### cn=Amy Wong+sn=Kroker,ou=people,dc=planetexpress,dc=com
 
-_S-1-5-21-3477787073-812361429-1014394821_
-_18d0e2f5-deb8-4e0c-a483-1313d60863fa_
+SID: _S-1-5-21-3477787073-812361429-1014394821_
+
+GUID: _18d0e2f5-deb8-4e0c-a483-1313d60863fa_
 
 Amy has a multi-valued DN
 
@@ -216,8 +223,9 @@ Amy has a multi-valued DN
 
 ### cn=admin_staff,ou=people,dc=planetexpress,dc=com
 
-_S-1-5-21-3477787073-812361429-1014394828_
-_18d0e2f5-deb8-4e0c-a483-1313d6086312_
+SID: _S-1-5-21-3477787073-812361429-1014394828_
+
+GUID: _18d0e2f5-deb8-4e0c-a483-1313d6086312_
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |
@@ -230,8 +238,9 @@ _18d0e2f5-deb8-4e0c-a483-1313d6086312_
 
 ### cn=ship_crew,ou=people,dc=planetexpress,dc=com
 
-_S-1-5-21-3477787073-812361429-1014394829_
-_18d0e2f5-deb8-4e0c-a483-1313d6086313_
+SID: _S-1-5-21-3477787073-812361429-1014394829_
+
+GUID: _18d0e2f5-deb8-4e0c-a483-1313d6086313_
 
 | Attribute        | Value            |
 | ---------------- | ---------------- |

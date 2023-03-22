@@ -1,0 +1,8 @@
+dn: cn=RM_ChartRoom,ou=resources,dc=planetexpress,dc=com
+objectClass: top
+objectClass: room
+cn: RM_ChartRoom
+description: The chart room was shown in "Viva Mars Vegas". It is seemingly st
+ ocked with a mass of charts including the floor plan for Wong Hotel & Casino along with others.
+ 
+ The interior of the chart room is wooden-looking and seems somewhat different from the rest of the headquarters.

@@ -1,0 +1,9 @@
+dn: cn=RM_ZoidbergOffice,ou=resources,dc=planetexpress,dc=com
+objectClass: top
+objectClass: room
+cn: RM_ZoidbergOffice
+description: The staff doctor of the company, Dr. Zoidberg has his own office 
+ as well, though, Dr. Zoidberg is unfortunately not that knowledgeable of huma
+ ns, so his office seems to be somewhat strangely furnished, with a diagram of
+  a human upside down. His office also seems to have a depot for the company a
+ ttached at the back.

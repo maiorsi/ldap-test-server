@@ -1,0 +1,8 @@
+dn: cn=RM_Attic,ou=resources,dc=planetexpress,dc=com
+objectClass: top
+objectClass: room
+cn: RM_Attic
+description: The attic is a large, round room in which inventions like the Sme
+ ll-O-Scope are kept (1ACV08). It can be extracted entirely from the building 
+ through a cord to perform tasks such as shooting Diamondium at enemies (TBwaB
+ B). It was destroyed in the fire, but was later rebuilt.

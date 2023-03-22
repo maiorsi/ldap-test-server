@@ -1,0 +1,6 @@
+dn: cn=RM_LockerRoom,ou=resources,dc=planetexpress,dc=com
+objectClass: top
+objectClass: room
+cn: RM_LockerRoom
+description: The locker room consists of the lockers and also a unisex shower 
+ room. 

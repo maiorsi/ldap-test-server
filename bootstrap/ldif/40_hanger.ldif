@@ -1,0 +1,9 @@
+dn: cn=RM_Hanger,ou=resources,dc=planetexpress,dc=com
+objectClass: top
+objectClass: room
+cn: RM_Hanger
+description: The largest and most important room and the heart of the operatio
+ n of Planet Express, in here, the Planet Express ship is kept, which requires
+  no lane to take off, although, there is an option for angling the floor up t
+ o assist in a take off of the ship. The hangar has direct access to the conf
+ erence room and Farnsworth's laboratory.

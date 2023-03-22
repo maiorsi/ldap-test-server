@@ -1,0 +1,9 @@
+dn: cn=RM_HermesOffice,ou=resources,dc=planetexpress,dc=com
+objectClass: top
+objectClass: room
+cn: RM_HermesOffice
+description: Hermes Conrad, being the company's bureaucrat, has his own office
+ , which he keeps tidy for the mandatory inspections that occur now and then. 
+ Beside a table, it includes a tube connected to the Central Bureaucracy, a di
+ sintegrator and stamp devices of all kinds. His office is located directly un
+ derneath the employee lounge.

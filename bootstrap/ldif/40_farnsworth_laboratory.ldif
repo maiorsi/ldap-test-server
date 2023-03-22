@@ -1,0 +1,4 @@
+dn: cn=RM_Lab,ou=resources,dc=planetexpress,dc=com
+objectClass: top
+objectClass: room
+cn: RM_Lab

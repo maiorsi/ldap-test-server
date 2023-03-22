@@ -1,0 +1,10 @@
+dn: cn=RM_EmployeeLounge,ou=resources,dc=planetexpress,dc=com
+objectClass: top
+objectClass: room
+cn: RM_EmployeeLounge
+description: The favourite room by the company's employees, where they spend m
+ ost of the time watching television and hanging out. Besides a TV, there is a
+  coffee table as well as a sofa near the window. At the other end of the room
+ is a dining table and some chairs.
+ 
+ While the employee lounge leads to the conference room on one side, the other door seems to lead to whatever the writers find appropriate; the toilet, the kitchen, the hallway, the hangar and much more.

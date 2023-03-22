@@ -1,0 +1,10 @@
+dn: cn=RM_ConferenceRoom,ou=resources,dc=planetexpress,dc=com
+objectClass: top
+objectClass: room
+cn: RM_ConferenceRoom
+description: The conference room consists of the conference table, where all m
+ eetings at the company are held. The conference room also includes a kitchen 
+ from the opposite side of the hangar, as well as a chemical shower. There is 
+ also a big monitor, where videos are often shown, especially educational film
+ s. A holographic projector is also used frequently. The conference room overl
+ ooks the hangar as well, connecting with the employee lounge.

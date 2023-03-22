@@ -1,0 +1,8 @@
+dn: cn=RM_SituationRoom,ou=resources,dc=planetexpress,dc=com
+objectClass: top
+objectClass: room
+cn: RM_SituationRoom
+description: The situation room is in fact the bathroom in which the professor
+  can be seen taking many baths (many times calling in the crew, the room has 
+ a bath, tiles, a sink, and a floating bath toy modelled after the Planet Expr
+ ess Ship).

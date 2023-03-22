@@ -1,0 +1,7 @@
+dn: cn=RM_Lobby,ou=resources,dc=planetexpress,dc=com
+objectClass: top
+objectClass: room
+cn: RM_Lobby
+description: Just inside the front door is the lobby. It is only really used w
+ hen they are greeting new people; however a small door leads directly into He
+ rmes' office. The main door includes intuitive features such as "slam!".

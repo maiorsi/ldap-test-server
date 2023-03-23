@@ -22,4 +22,4 @@ ENV LDAP_ADMIN_DN='cn=admin,dc=planetexpress,dc=com'
 ADD bootstrap /container/service/slapd/assets/config/bootstrap
 ADD certs /container/service/slapd/assets/certs
 
-HEALTHCHECK CMD ["ldapsearch", "-H", "ldap://127.0.0.1:389", "-D", "${LDAP_ADMIN_DN}", "-w", "${LDAP_ADMIN_PASSWORD}", "-b", "${LDAP_ADMIN_DN}"]
+HEALTHCHECK CMD ["ldapsearch", "-H", "ldap://127.0.0.1:389", "-D", "${LDAP_ADMIN_DN}", "-w", "${LDAP_ADMIN_PASSWORD}", "-b", "${LDAP_BASE_DN}"]
